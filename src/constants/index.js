@@ -9,7 +9,6 @@ import debate from '@assets/debate.jpeg'
 import facebook from '@assets/facebook.png'
 import instagram from '@assets/instagram2.png'
 import gmail from '@assets/gmail.png'
-import { Knit } from 'next/font/google'
 
 
 export const navLinks = [
