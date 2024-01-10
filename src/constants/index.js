@@ -493,7 +493,7 @@ export const members = {
    
   ],
 
-  executive: [
+  subHead: [
     {
       id: 'name3',
       name: 'Kushagra Agrawal ',
@@ -636,20 +636,14 @@ export const members = {
     
   ],
 
-  // executive: [
-  //   {
-  //     id: 'name3',
-  //     name: 'Name3 ',
-  //     img: profile,
-  //     Position: 'secreatery',
-  //   },
-  //   {
-  //     id: 'name4',
-  //     name: 'Name4 ',
-  //     img: profile,
-  //     Position: 'secreatery',
-  //   },
-  // ],
+  executive: [
+    {
+      id: 'name45',
+      name: 'Shivansh Vasu ',
+      img: Shivansh,
+      Position: 'Media & Content Head',
+    },
+  ],
 
 
 }
