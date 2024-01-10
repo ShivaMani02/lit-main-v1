@@ -11,14 +11,14 @@ import { AchievementCard } from '@council/components/helper/achievementsCard'
 
 export default function Achievements() {
   return (
-    <section className="py-24 md:px-32 px-8 bg-bl-primary text-white">
+    <section id='achievements' className="py-24 md:px-32 px-8 bg-bl-primary text-white">
       <motion.div
         variants={textVariant(0.25)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
       >
-        <p className={styles.sectionSubText}>what we have Achive So Far</p>
+        <p className={styles.sectionSubText}>what we have Achieve So Far</p>
         <h2 className={styles.sectionHeadText}>Our Achievements</h2>
       </motion.div>
 

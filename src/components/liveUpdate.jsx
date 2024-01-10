@@ -9,14 +9,14 @@ import { styles } from '@council/app/styles'
 export default function LiveUpdates() {
   return (
     <section
-      id="branches"
+      
       className="md:px-32 px-8 py-24 shadow-inner bg-[#f3f2f2d3]"
     >
       <motion.div variants={textVariant2()} initial="hidden" animate="show">
         <p
           className={`text-green-700  ${styles.sectionSubText} font-bold transform rotate-x-30 origin-bottom`}
         >
-          Live Updates : We are launching our website!!!
+           Literary Council wishes you all a very Happy New Year !!!
         </p>
       </motion.div>
       {/* <div className="flex mt-10 flex-wrap md:px-32 px-5 gap-10 justify-center items-center">
@@ -34,7 +34,8 @@ export default function LiveUpdates() {
       <div className="flex mt-10 flex-wrap md:px-32 px-5 gap-10 justify-center items-center">
         <div className="flex w-1/2 flex-col bg-wh-primary  drop-shadow-md rounded-lg gap-2 font-extralight ">
           <div className="flex  justify-between items-center p-2">
-            <p>May the triumph of good over evil on this Dussehra inspire us to overcome challenges and embrace a brighter, more harmonious future. Happy Dussehra!</p>
+            <p>Literary Council of KNIT Sultanpur, wishes you a happy and prosperous new year.
+                                   May you find inspiration and joy in your writing endeavors.</p>
             {/* <a href="" className=" cursor-pointer">
               <Image src={openLink} alt="openLink" width={15} />
             </a> */}
@@ -47,7 +48,7 @@ export default function LiveUpdates() {
       <div className="flex mt-10 flex-wrap md:px-32 px-5 gap-10 justify-center items-center">
         <div className="flex w-1/2 flex-col bg-wh-primary  drop-shadow-md rounded-lg gap-2 font-extralight ">
           <div className="flex  justify-between items-center p-2">
-            <p>Kavyasarita: Where verses flow like a river, weaving tales of emotions and dreams, celebrating the timeless beauty of poetry.</p>
+            <p>"With great joy and pride, we unveil the triumph of our meticulously orchestrated event "Orator's Talk" conducted by The Literary Council, KNIT Sultanpur on 24th November."</p>
             {/* <a href="" className=" cursor-pointer">
               <Image src={openLink} alt="openLink" width={15} />
             </a> */}
@@ -59,7 +60,7 @@ export default function LiveUpdates() {
       <div className="flex mt-10 flex-wrap md:px-32 px-5 gap-10 justify-center items-center">
         <div className="flex w-1/2 flex-col bg-wh-primary  drop-shadow-md rounded-lg gap-2 font-extralight ">
           <div className="flex  justify-between items-center p-2">
-            <p>Sahityotsava: A literary festival that ignites minds, celebrates words, and creates a symphony of stories and ideas, uniting literature enthusiasts from all horizons.</p>
+            <p>"Literary Council KNIT Sultanpur,  wishes for a luminous Diwali filled with the brilliance of literature and the joy of shared stories. May this festival of lights bring inspiration and creativity to all. Happy Diwali!"</p>
             {/* <a href="" className=" cursor-pointer">
               <Image src={openLink} alt="openLink" width={15} />
             </a> */}

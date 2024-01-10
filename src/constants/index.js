@@ -1,15 +1,42 @@
 import dash from '@assets/knitLogo.png'
-// import profile from '@assets/profile.png'
-import profile from '@assets/no-image-icon.jpg'
-import director from '@assets/director.jpg'
-
+//  import profile from '@assets/profile.png'                
 import book from '@assets/book.png'
 import poetry from '@assets/poetry.png'
 import debate from '@assets/debate.jpeg'
 import facebook from '@assets/facebook.png'
 import instagram from '@assets/instagram2.png'
 import gmail from '@assets/gmail.png'
-
+import Director from '@assets/Director.png'
+import Dean from '@assets/Dean.png'
+import Pradeep from '@assets/Pradeep.png'
+import Shivansh from '@assets/shivansh.png'
+import Rishi from '@assets/rishi.png'
+import Ananya from '@assets/Ananya.png'
+import Harsh from '@assets/Harsh.png'
+import Avi from '@assets/Avi.png'
+import Vandita from '@assets/Vandita.png'
+import Nishant from '@assets/Nishant.png'
+import Surendra from '@assets/Surendra.png'
+import Karan from '@assets/Karan.png'
+import Rakshit from '@assets/Rakshit.png'
+import Kushagra from '@assets/Kushagra.png'
+import dakshyani from '@assets/dakshyani.png'
+import Piyush from '@assets/Piyush.png'
+import Jyoti from '@assets/Jyoti.png'
+import Hariom from '@assets/Hariom.png'
+import swati from '@assets/swati.png'
+import Rupam from '@assets/Rupam.png'
+import Anshika from '@assets/Anshika.png'
+import Raj from '@assets/Raj.png'
+import Riya from '@assets/Riya.png'
+import anamika from '@assets/anamika.png'
+import Pratyush from '@assets/Pratyush.png'
+import Mansi from '@assets/Mansi.png'
+import Nishta from '@assets/Nishta.png'
+import Nikhil from '@assets/Nikhil.png'
+import Abhishek from '@assets/Abhishek.png'
+import Utsav from '@assets/Utsav.png'
+import Sreyansh from '@assets/Sreyansh.png'
 
 export const navLinks = [
   {
@@ -31,7 +58,7 @@ export const navLinks = [
   },
   {
     id: 'achievements',
-    title: 'Achivements',
+    title: 'Achievements',
   },
   {
     id: 'members',
@@ -77,7 +104,7 @@ export const eventData = {
     content:
       'Experience the magic of words at Sahityotsav, a literary extravaganza brought to you by the Literary Council of KNIT Sultanpur. Sahityotsav is a celebration of diverse literary themes, featuring captivating events such as spirited debates that ignite intellectual fires, entertaining charades that bring stories to life, exhilarating extempore sessions that test quick thinking, and creative story writing challenges that showcase your narrative prowess. This literary carnival is a melting pot of ideas, where wordsmiths and enthusiasts come together to explore the beauty of language. Join us for a day filled with inspiration, creativity, and the joy of literature at Sahityotsav!',
   },
-  kavySarita: {
+  kavyaSarita: {
     img: book,
     content:
       'Dive into the poetic symphony of Kavya Sarita, an enchanting event presented by the Literary Council at KNIT Sultanpur. Here, the rhythmic cadence of both English and Hindi poetry flows like a river of emotions, featuring verses crafted by talented poets, be it self-penned or the timeless creations of celebrated authors. Kavya Sarita is a confluence of literary expressions, where words paint vivid pictures and emotions dance in poetic lines. Join us on this lyrical journey, where you can share your own verses or relish the timeless beauty of poetic compositions. Immerse yourself in the world of poetry and let your soul sail on the waves of words.',
@@ -113,8 +140,8 @@ export const events = [
   },
 
   {
-    id: 'KavySarita',
-    title: 'Kavy Sarita',
+    id: 'KavyaSarita',
+    title: 'Kavya Sarita',
   },
 
   {
@@ -151,46 +178,46 @@ export const messages = [
   {
     id: 'Director',
     name: 'Dr. Rajeev Kumar Upadhyay ',
-    img: director,
+    img: Director,
 
-    Position: 'Director',
+    Position: 'Director ,KNIT Sultanpur',
     description:
       'The Literary Council is a vibrant and inclusive community dedicated to the celebration of literature in all its forms. Our mission is to promote the love of reading, writing, and thoughtful literary discourse. Through our website, events, and discussions, we aim to connect literary enthusiasts, inspire creative minds, and encourage the exploration of diverse literary landscapes. Join us in our collective journey of words and stories, and let\'s explore the boundless world of literature together.',
   },
   {
     id: 'Dean',
     name: 'Prof. Sujeet Kumar Agrawal ',
-    Position: 'Dean',
-    img: profile,
+    Position: 'Dean of Student Welfare ,KNIT Sultanpur',
+    img: Dean,
 
     description:
       'At the Literary Council, we are passionate about the power of words to inspire, transform, and connect. Our organization is a haven for all who cherish the beauty of language and storytelling. Through our website, events, and collaborative initiatives, we foster a dynamic space where literature thrives. We invite you to embark on a literary adventure with us, whether you\'re an avid reader, a budding writer, or someone who simply appreciates the magic of the written word. Together, let\'s embark on a journey where every page turned unveils a new world waiting to be explored.',
   },
   {
     id: 'Convenor',
-    name: 'Prof Pradeep Kumar ',
-    Position: 'Convenor',
-    img: profile,
+    name: 'Prof. Pradeep Kumar ',
+    Position: 'Convenor ,Literary Council (KNIT Sultanpur)',
+    img: Pradeep,
 
     description:
       'At the heart of the Literary Council, our love for literature knows no bounds. We\'re a passionate collective of bibliophiles, wordsmiths, and literary explorers. Our commitment lies in nurturing a vibrant literary ecosystem where ideas flourish and creativity soars. Through this website and our events, we offer a haven for readers, writers, and thinkers to engage in thought-provoking discussions and share their literary insights. Join us on this remarkable voyage, as we navigate the boundless sea of human imagination, one word at a time',
   },
   
-  {
-    id: 'Alumni1',
-    name: 'Anurag Srivastava ',
-    Position: 'TCS',
-    img: profile,
-    description:
-      'The Literary Council is a sanctuary for the written word, a place where stories come to life, and where the magic of literature is celebrated. We are a community of individuals united by our profound appreciation for the world of books and storytelling. Our website is your portal to explore the rich tapestry of literature, connect with fellow enthusiasts, and immerse yourself in the boundless realms of human imagination. Together, we embark on a literary journey, where every page turned holds the promise of new discoveries, inspiration, and enlightenment.',
-  },
+  // {
+  //   id: 'Alumni1',
+  //   name: 'Anurag Srivastava ',
+  //   Position: 'TCS',
+  //   img: profile,
+  //   description:
+  //     'The Literary Council is a sanctuary for the written word, a place where stories come to life, and where the magic of literature is celebrated. We are a community of individuals united by our profound appreciation for the world of books and storytelling. Our website is your portal to explore the rich tapestry of literature, connect with fellow enthusiasts, and immerse yourself in the boundless realms of human imagination. Together, we embark on a literary journey, where every page turned holds the promise of new discoveries, inspiration, and enlightenment.',
+  // },
 ]
 
 export const achievementData = [
   {
     //first
     title: 'IIT Kanpur',
-    eventName: 'Antaragini\'23',
+    eventName: 'Antaragini',
     collegeIcon: dash,
     year: '2023',
     points: [
@@ -206,6 +233,10 @@ export const achievementData = [
             eventName: 'Kavyanjali',
             rank: '1st position',
           },
+          {
+            eventName: 'Aamne-Saamne',
+            rank: '1st position',
+          },
         ],
       },
       {
@@ -219,45 +250,95 @@ export const achievementData = [
           }
         ],
       },
+      {
+        winnerName: 'Vandita Saxena',
+        batch: '2025',
+
+        positions: [
+          {
+            eventName: 'Kavyanjali',
+            rank: '3rd position',
+          }
+        ],
+      },
+      {
+        winnerName: 'Anamika Tiwari',
+        batch: '2025',
+
+        positions: [
+          {
+            eventName: 'Kirdaar',
+            rank: '3rd position',
+          }
+        ],
+      },
     ],
   },
 
-  // {
-  //   title: 'College Name ',
-  //   collegeIcon: dash,
-  //   eventName: 'Event Name',
-  //   year: 'year',
-  //   points: [
-  //     {
-  //       winnerName: 'Winner Name',
-  //       batch: '2020',
-  //       positions: [
-  //         {
-  //           eventName: 'event name',
-  //           rank: 'got position',
-  //         },
-  //         {
-  //           eventName: 'event name',
-  //           rank: 'got position',
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       winnerName: 'Winner Name',
-  //       batch: 'batch',
-  //       positions: [
-  //         {
-  //           eventName: 'event name',
-  //           rank: 'got position',
-  //         },
-  //         {
-  //           eventName: 'event name',
-  //           rank: 'got position',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    title: 'KNIT Sultanpur ',
+    collegeIcon: dash,
+    eventName: 'Orator\'s Talk',
+    year: '2023',
+    points: [
+      {
+        winnerName: 'Harshita Raghav',
+        batch: '2026',
+        positions: [
+          {
+            eventName: 'Orator\'s Talk',
+            rank: '1st position',
+          },
+          // {
+          //   eventName: 'event name',
+          //   rank: 'got position',
+          // },
+        ],
+      },
+      {
+        winnerName: 'Payal',
+        batch: '2026',
+        positions: [
+          {
+            eventName: 'Orator\'s Talk',
+            rank: '2nd position',
+          },
+          // {
+          //   eventName: 'event name',
+          //   rank: 'got position',
+          // },
+        ],
+      },
+      {
+        winnerName: 'Sankalp Tiwari',
+        batch: '2026',
+        positions: [
+          {
+            eventName: 'Orator\'s Talk',
+            rank: '3rd position',
+          },
+          // {
+          //   eventName: 'event name',
+          //   rank: 'got position',
+          // },
+        ],
+      },
+      {
+        winnerName: 'Dia Chaudhary',
+        batch: '2026',
+        positions: [
+          {
+            eventName: 'Orator\'s Talk',
+            rank: 'Consolation Prize',
+          },
+          // {
+          //   eventName: 'event name',
+          //   rank: 'got position',
+          // },
+        ],
+      },
+    ],
+  },
 
   // {
   //   title: 'College Name ',
@@ -302,16 +383,16 @@ export const achievementData = [
 export const membersType = [
   {
     id: 'head',
-    title: 'Head',
+    title: 'Final Year',
   },
   {
     id: 'sub-head',
-    title: 'Sub Head',
+    title: 'Third Year',
   },
-  {
-    id: 'executive',
-    title: 'Executive',
-  },
+  // {
+  //   id: 'executive',
+  //   title: 'Executive',
+  // },
 ]
 
 export const members = {
@@ -319,70 +400,258 @@ export const members = {
     {
       id: 'Rishi Srivastava',
       name: 'Rishi Srivastava',
-      img: profile,
-      Position: 'secretary',
+      img: Rishi,
+      Position: 'Secretary',
     },
     {
-      id: 'name2',
+      id: 'Ananya Verma',
       name: 'Ananya Verma ',
-      img: profile,
-      Position: 'secretary',
+      img: Ananya,
+      Position: 'Secretary',
     },
+    
     {
-      id: 'name3',
-      name: 'Mohit Kumar Singh ',
-      img: profile,
-      Position: 'Debate Club Head',
-    },
-    {
-      id: 'name4',
+      id: 'name45',
       name: 'Shivansh Vasu ',
-      img: profile,
+      img: Shivansh,
       Position: 'Media & Content Head',
     },
     {
       id: 'name5',
+      name: 'Avi Srivastava ',
+      img: Avi,
+      Position: 'Media & Content Head',
+    },
+    {
+      id: 'name5',
+      name: 'Harsh Gupta ',
+      img: Harsh,
+      Position: 'Debate Club Head',
+    },
+    // {
+    //   id: 'name3',
+    //   name: 'Mohit Kumar Singh ',
+    //   img: profile,
+    //   Position: 'Debate Club Head',
+    // },
+    // {
+    //   id: 'name4',
+    //   name: 'Niharika Tiwari ',
+    //   img: profile,
+    //   Position: 'Debate Club Head',
+    // },
+    
+    {
+      id: 'name5',
       name: 'Vandita Khare ',
-      img: profile,
+      img: Vandita,
+      Position: 'Event Head',
+    },
+    {
+      id: 'name5',
+      name: 'Nishant Kumar ',
+      img: Nishant,
       Position: 'Event Head',
     },
     {
       id: 'name6',
-      name: 'Apeksha Chauhan ',
-      img: profile,
-      Position: 'Funtoosh club head',
+      name: 'Surendra Sahani ',
+      img: Surendra,
+      Position: 'Bookpool head',
     },
+    {
+      id: 'name6',
+      name: 'Karan Singh',
+      img: Karan,
+      Position: 'Bookpool head',
+    },
+    // {
+    //   id: 'name6',
+    //   name: 'Kavita Ranjan',
+    //   img: profile,
+    //   Position: 'Kavita Club Head',
+    // },
+    // {
+    //   id: 'name6',
+    //   name: 'Animesh Mishra',
+    //   img: profile,
+    //   Position: 'Kavita Club Head',
+    // },
+    // {
+    //   id: 'name6',
+    //   name: 'Prakash Mayank Upadhyay',
+    //   img: profile,
+    //   Position: 'Funtoosh Club Head',
+    // },
+    // {
+    //   id: 'name6',
+    //   name: 'Apeksha Chauhan',
+    //   img: profile,
+    //   Position: 'Funtoosh Club Head',
+    // },
+    
+   
   ],
 
   subHead: [
     {
       id: 'name3',
-      name: 'Name3 ',
-      img: profile,
-      Position: 'secreatery',
+      name: 'Kushagra Agrawal ',
+      img: Kushagra,
+      Position: 'Joint Secretary',
     },
     {
       id: 'name4',
-      name: 'Name4 ',
-      img: profile,
-      Position: 'secreatery',
+      name: 'Dakshyani Srivastava ',
+      img: dakshyani,
+      Position: 'Joint Secretary',
     },
+    {
+      id: 'name4',
+      name: 'Piyush Kumar ',
+      img: Piyush,
+      Position: 'Debate Club coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Jyoti Kushwaha',
+      img: Jyoti,
+      Position: 'Debate Club coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Rakshit Singh ',
+      img: Rakshit,
+      Position: 'Design and Media Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Swati Singh ',
+      img: swati,
+      Position: 'Design and Media Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Rupam Gupta ',
+      img: Rupam,
+      Position: 'Design and Media Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Raj Aryan',
+      img: Raj,
+      Position: 'Kavita Club Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Anamika Tiwari',
+      img: anamika,
+      Position: 'Kavita Club Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Riya Kaushik ',
+      img: Riya,
+      Position: 'Content coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Shreyansh Dubey ',
+      img: Sreyansh,
+      Position: 'Content coordinator',
+    },
+    // {
+    //   id: 'name4',
+    //   name: 'Devansh Dinesh Pandey ',
+    //   img: profile,
+    //   Position: 'Event Coordinator',
+    // },
+    // {
+    //   id: 'name4',
+    //   name: 'Vandita Saxena ',
+    //   img: profile,
+    //   Position: 'Event Coordinator',
+    // },
+    // {
+    //   id: 'name4',
+    //   name: 'Aryan Tripathi ',
+    //   img: profile,
+    //   Position: 'Event Coordinator',
+    // },
+    {
+      id: 'name4',
+      name: 'Anshika Pandey ',
+      img: Anshika,
+      Position: 'Bookpool Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Pratyush Mukhariya ',
+      img: Pratyush,
+      Position: 'Bookpool Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Nikhil Dubey ',
+      img: Nikhil,
+      Position: 'Funtoosh Club Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Hariom Shukla ',
+      img: Hariom,
+      Position: 'Funtoosh Club Coordinator',
+    },
+    {
+      id: 'name4',
+      name: 'Nishtha Mishra',
+      img: Nishta,
+      Position: 'Council Member',
+    },
+    {
+      id: 'name4',
+      name: 'Mansi Anand ',
+      img: Mansi,
+      Position: 'Council Member',
+    },
+    {
+      id: 'name4',
+      name: 'Abhishek Mishra ',
+      img: Abhishek,
+      Position: 'Council Member',
+    },
+    {
+      id: 'name4',
+      name: 'Utsav Tiwari ',
+      img: Utsav,
+      Position: 'Council Member',
+    },
+    // {
+    //   id: 'name4',
+    //   name: 'Prachi Singh ',
+    //   img: profile,
+    //   Position: 'event coordinator',
+    // },
+    
+    
   ],
 
-  executive: [
-    {
-      id: 'name3',
-      name: 'Name3 ',
-      img: profile,
-      Position: 'secreatery',
-    },
-    {
-      id: 'name4',
-      name: 'Name4 ',
-      img: profile,
-      Position: 'secreatery',
-    },
-  ],
+  // executive: [
+  //   {
+  //     id: 'name3',
+  //     name: 'Name3 ',
+  //     img: profile,
+  //     Position: 'secreatery',
+  //   },
+  //   {
+  //     id: 'name4',
+  //     name: 'Name4 ',
+  //     img: profile,
+  //     Position: 'secreatery',
+  //   },
+  // ],
+
+
 }
 
 export const contacts = [
@@ -409,14 +678,14 @@ export const contacts = [
 export const queries = [
   {
     id: 'name3',
-    name: 'Name3 ',
+    name: 'Rishi Srivastava ',
     contactNo: '+91 6392528742',
-    position: 'Co-oridinator',
+    position: 'Co-oridinator (Boys)',
   },
   {
     id: 'name4',
-    name: 'Name4 ',
+    name: 'Ananya Verma ',
     contactNo: '+91 8423610990',
-    position: 'Co-oridinator',
+    position: 'Co-oridinator (Girls)',
   },
 ]
