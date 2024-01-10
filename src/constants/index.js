@@ -493,7 +493,7 @@ export const members = {
    
   ],
 
-  subHead: [
+  executive: [
     {
       id: 'name3',
       name: 'Kushagra Agrawal ',
